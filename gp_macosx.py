@@ -9,7 +9,7 @@
 used under Mac OS X.
 
 The only difference between this interface and gp_unix is that
-default_term is 'aqua'.
+default_term is 'dumb'.
 
 This file implements a low-level interface to gnuplot.  This file
 should be imported through gp.py, which in turn should be imported via
@@ -38,7 +38,7 @@ class GnuplotOpts:
     support_fifo = 1
     prefer_fifo_data = 1
 
-    default_term = 'aqua'
+    default_term = 'dumb'
     default_lpr = '| lpr'
     prefer_enhanced_postscript = 1
 
